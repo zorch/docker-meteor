@@ -1,0 +1,4 @@
+apt-get install nano
+rm -rf /etc/nginx/conf.d/example_ssl.conf
+mkdir  /etc/nginx/sites-enabled
+mkdir  /etc/nginx/sites-available
