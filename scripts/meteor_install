@@ -1,1 +1,4 @@
-curl https://install.meteor.com | /bin/sh
+apt-get install mongodb-server
+netstat -ln | grep -E '27017|28017'
+curl https://install.meteor.com | /bin/bash
+apt-get install procps
