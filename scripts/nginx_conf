@@ -1,4 +1,8 @@
 apt-get install nano
+cd /tmp/docker-meteor/nginx
+git pull
 rm -rf /etc/nginx/conf.d/example_ssl.conf
 mkdir  /etc/nginx/sites-enabled
 mkdir  /etc/nginx/sites-available
+cp zorch-sdapp.com /etc/nginx/sites-available
+
